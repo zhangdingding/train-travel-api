@@ -1,6 +1,6 @@
 # Train Travel API
 
-This API does not exist, but exists to help people learn OpenAPI by describing a realistic API in a realistic way.
+This API exists to help people learn OpenAPI by describing a realistic API in a realistic way.
 
 ## Background
 
@@ -24,7 +24,7 @@ Or [download it yourself](https://github.com/bump-sh-examples/train-travel-api/a
 
 ## Notes
 
-### Start the server
+### Start the API server
 
 ```sh
 cd server
