@@ -31,10 +31,22 @@ cd server
 npm run start
 ```
 
+### Check the OpenAPI specification file is valid using Redoc
+
+```sh
+npx @redocly/cli lint openapi.yaml
+```
+
+### Convert the OpenAPI specification from YAML format to JSON format using Redoc
+
+```sh
+npx @redocly/cli bundle ./openapi.yaml --output ./openapi.json
+```
+
 ### Generate OpenAPI HTML documentation using Redoc
 
 ```sh
-npx @redocly/cli build-docs openapi.yaml
+npx @redocly/cli build-docs openapi.yaml --output=openapi-redoc-static.html
 ```
 
 ## License
