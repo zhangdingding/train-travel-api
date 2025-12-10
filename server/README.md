@@ -6,4 +6,4 @@ https://ahkn.dev/p/generating-express-js-apis-with-fern-api
 
 ## Start the server
 
-`PORT=8086 npm run start`
+`npm run start`
