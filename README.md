@@ -31,6 +31,12 @@ cd server
 PORT=8086 npm run start
 ```
 
+Then you can access it. For example, here is the API endpoint for retrieving the station list (GET Method):
+
+```sh
+http://localhost:8086/stations
+```
+
 ### Check the OpenAPI specification file is valid using Redoc
 
 ```sh
